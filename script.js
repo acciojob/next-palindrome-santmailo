@@ -1,6 +1,6 @@
 function nextPalindrome(num) {
   //your JS code heree
-  let i = num+1;
+  let i = parseInt(num)+1;
 	while(!checkPalindrom(i)){
 	    i++;
 	}
